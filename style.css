@@ -1,57 +1,60 @@
-body{
-    background-color: hsl(212, 45%, 89%);
-    font-family: 'outfit', sans-serif;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit";
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: hsl(212, 45%, 89%)
+}
+
+#elem{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 15px;
+    transform: translate(-50%, -50%);
+    width: 23%;
+    height: 75%;
+    background-color: hsl(0, 0%, 100%)
+}
+
+#qr{
+    position: absolute;
+    top: 4%;
+    left: 50%;
+    border-radius: 15px;
+    transform: translate(-50%, 0%);
+    width: 88%;
+    height: 60%;
+    background-image: url(image-qr-code.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#text{
+    position: absolute;
+    bottom: 3%;
     text-align: center;
 }
 
-h3{
-   color:  hsl(218, 44%, 22%);
-   font-weight: 700;
-   padding: 10px;
-   margin: 10px 10px 0 10px;
+#text h1{
+    font-size: 23px;
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
 }
 
-p {
-    color:hsl(220, 15%, 55%);
+#text p{
     font-size: 15px;
+    padding: 10px 35px;
     font-weight: 400;
-    margin: 20px;
-}
-
-img {
-    border-radius: 5%;
-    margin-top: 13px;
-    width: 275px;
-    height: 275px;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    color:hsl(220, 15%, 55%);
-    font-size: larger;
-}
-
-footer {
-    position: absolute;
-    bottom: 10px;
-    left:35%;
-}
-
-
-.qr-box {
-    background-color: white;
-    border-radius: 6%;
-    position:absolute;
-    width: 300px;
-    height: 460px;
-    margin-top: 7em;
-    margin-left: 40%;
-}
-
-.attributiion {
-    font-size: 9px; 
-    color: hsl(228, 45%, 44%); 
+    color: hsl(220, 15%, 55%);
 }
