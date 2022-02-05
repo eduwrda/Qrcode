@@ -5,14 +5,14 @@ body{
 }
 
 h3{
-   color:  hsl(268, 45%, 22%);
+   color:  hsl(218, 44%, 22%);
    font-weight: 700;
    padding: 10px;
    margin: 10px 10px 0 10px;
 }
 
 p {
-    color:hsl(266, 22%, 50%);
+    color:hsl(220, 15%, 55%);
     font-size: 15px;
     font-weight: 400;
     margin: 20px;
@@ -30,7 +30,7 @@ a {
 }
 
 a:hover {
-    color:hsl(274, 15%, 55%);
+    color:hsl(220, 15%, 55%);
     font-size: larger;
 }
 
@@ -53,5 +53,5 @@ footer {
 
 .attributiion {
     font-size: 9px; 
-    color: hsl(261, 53%, 19%); 
+    color: hsl(228, 45%, 44%); 
 }
