@@ -1,0 +1,57 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'outfit', sans-serif;
+    text-align: center;
+}
+
+h3{
+   color:  hsl(268, 45%, 22%);
+   font-weight: 700;
+   padding: 10px;
+   margin: 10px 10px 0 10px;
+}
+
+p {
+    color:hsl(266, 22%, 50%);
+    font-size: 15px;
+    font-weight: 400;
+    margin: 20px;
+}
+
+img {
+    border-radius: 5%;
+    margin-top: 13px;
+    width: 275px;
+    height: 275px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color:hsl(274, 15%, 55%);
+    font-size: larger;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    left:35%;
+}
+
+
+.qr-box {
+    background-color: white;
+    border-radius: 6%;
+    position:absolute;
+    width: 300px;
+    height: 460px;
+    margin-top: 7em;
+    margin-left: 40%;
+}
+
+.attributiion {
+    font-size: 9px; 
+    color: hsl(261, 53%, 19%); 
+}
